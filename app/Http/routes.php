@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/pessoas', function () {
+    echo "listagem de pessoas";
+});
+
+Route::get('/notas', function () {
+    echo "lista de notas";
+});
+
+Route::get('/compras', function () {
+    echo "lista dos registros de compras";
+});
